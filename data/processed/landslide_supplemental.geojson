@@ -1,0 +1,379 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "description": "Supplemental landslide deposits from validated local geologic studies.",
+    "last_updated": "2026-03-24",
+    "validation": "20/21 addresses validated against Cotton Shires 2025 Fig 9. La Conchita from USGS OFR 2005-1067."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seal Cove \u2014 Zone 1 (Active)",
+        "velocity_max_mm_yr": 84,
+        "velocity_mean_mm_yr": 69,
+        "is_active": true,
+        "landslide_tier": 1,
+        "Confidence": 8,
+        "source": "Cotton Shires E6195 Dec 2025 for San Mateo County",
+        "hazard_zone": "Zone 1: Unstable active landslide and unstable steep coastal bluff"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.5107,
+              37.512
+            ],
+            [
+              -122.5112,
+              37.5128
+            ],
+            [
+              -122.5118,
+              37.5138
+            ],
+            [
+              -122.5121,
+              37.5148
+            ],
+            [
+              -122.5124,
+              37.5155
+            ],
+            [
+              -122.5126,
+              37.5163
+            ],
+            [
+              -122.513,
+              37.5172
+            ],
+            [
+              -122.5134,
+              37.518
+            ],
+            [
+              -122.5138,
+              37.5188
+            ],
+            [
+              -122.5142,
+              37.5196
+            ],
+            [
+              -122.5148,
+              37.5206
+            ],
+            [
+              -122.5133,
+              37.5198
+            ],
+            [
+              -122.513,
+              37.5192
+            ],
+            [
+              -122.5128,
+              37.5189
+            ],
+            [
+              -122.5122,
+              37.5182
+            ],
+            [
+              -122.5118,
+              37.5179
+            ],
+            [
+              -122.5115,
+              37.5172
+            ],
+            [
+              -122.51115,
+              37.5161
+            ],
+            [
+              -122.5112,
+              37.5155
+            ],
+            [
+              -122.5115,
+              37.5142
+            ],
+            [
+              -122.5112,
+              37.5135
+            ],
+            [
+              -122.5108,
+              37.5125
+            ],
+            [
+              -122.5107,
+              37.512
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seal Cove \u2014 Zone 2 (Progression)",
+        "is_active": false,
+        "landslide_tier": 2,
+        "Confidence": 5,
+        "source": "Cotton Shires E6195 Dec 2025 for San Mateo County",
+        "hazard_zone": "Zone 2: Potential landslide progression + bluff failure + fault"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.5108,
+              37.5125
+            ],
+            [
+              -122.5112,
+              37.5135
+            ],
+            [
+              -122.5115,
+              37.5142
+            ],
+            [
+              -122.5112,
+              37.5155
+            ],
+            [
+              -122.51115,
+              37.5161
+            ],
+            [
+              -122.5115,
+              37.5172
+            ],
+            [
+              -122.5118,
+              37.5179
+            ],
+            [
+              -122.5122,
+              37.5182
+            ],
+            [
+              -122.5128,
+              37.5189
+            ],
+            [
+              -122.513,
+              37.5192
+            ],
+            [
+              -122.5133,
+              37.5198
+            ],
+            [
+              -122.5131,
+              37.5208
+            ],
+            [
+              -122.5129,
+              37.5201
+            ],
+            [
+              -122.51275,
+              37.5196
+            ],
+            [
+              -122.512,
+              37.5185
+            ],
+            [
+              -122.5115,
+              37.5182
+            ],
+            [
+              -122.5112,
+              37.5172
+            ],
+            [
+              -122.5109,
+              37.5163
+            ],
+            [
+              -122.5108,
+              37.5155
+            ],
+            [
+              -122.5109,
+              37.5145
+            ],
+            [
+              -122.5106,
+              37.514
+            ],
+            [
+              -122.5102,
+              37.5132
+            ],
+            [
+              -122.5098,
+              37.512
+            ],
+            [
+              -122.5108,
+              37.5125
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Conchita Landslide Complex (Community + Bluff)",
+        "location": "La Conchita, Ventura County, CA",
+        "status": "active",
+        "velocity_max_mm_yr": null,
+        "velocity_mean_mm_yr": null,
+        "velocity_description": "Ancient landslide complex, reactivated 1995 and 2005. Debris runout into community. No continuous velocity monitoring.",
+        "hazard_zone": "Community in debris runout zone of ancient landslide complex. 1995: 9 homes destroyed. 2005: 13 destroyed, 23 severely damaged, 10 fatalities.",
+        "source": "Jibson, R.W., 2005, Landslide Hazards at La Conchita, California: USGS Open-File Report 2005-1067",
+        "is_active": true,
+        "landslide_tier": 1,
+        "Confidence": 8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.44819,
+              34.36174
+            ],
+            [
+              -119.44847,
+              34.36223
+            ],
+            [
+              -119.44883,
+              34.36273
+            ],
+            [
+              -119.44958,
+              34.36351
+            ],
+            [
+              -119.4505,
+              34.3645
+            ],
+            [
+              -119.45119,
+              34.36567
+            ],
+            [
+              -119.45057,
+              34.36655
+            ],
+            [
+              -119.44939,
+              34.36724
+            ],
+            [
+              -119.44827,
+              34.36809
+            ],
+            [
+              -119.44687,
+              34.36813
+            ],
+            [
+              -119.44611,
+              34.36802
+            ],
+            [
+              -119.44575,
+              34.36785
+            ],
+            [
+              -119.44526,
+              34.36754
+            ],
+            [
+              -119.44474,
+              34.36716
+            ],
+            [
+              -119.44432,
+              34.36682
+            ],
+            [
+              -119.44431,
+              34.36631
+            ],
+            [
+              -119.44405,
+              34.36578
+            ],
+            [
+              -119.44356,
+              34.36533
+            ],
+            [
+              -119.4432,
+              34.3645
+            ],
+            [
+              -119.4435,
+              34.3635
+            ],
+            [
+              -119.444,
+              34.3625
+            ],
+            [
+              -119.4445,
+              34.3615
+            ],
+            [
+              -119.4451,
+              34.36106
+            ],
+            [
+              -119.44563,
+              34.36083
+            ],
+            [
+              -119.4463,
+              34.36066
+            ],
+            [
+              -119.44675,
+              34.36062
+            ],
+            [
+              -119.44739,
+              34.36099
+            ],
+            [
+              -119.44782,
+              34.36136
+            ],
+            [
+              -119.44819,
+              34.36174
+            ],
+            [
+              -119.44819,
+              34.36174
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

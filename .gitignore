@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+
+# Raw and processed data (too large for git)
+data/raw/
+data/processed/
+data/tiles/
+
+# Wrangler local state
+.wrangler/
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+
+# Local deploy config (contains D1 database ID)
+.deploy.env
+
+# Claude Code
+.claude/
