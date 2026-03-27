@@ -27,7 +27,7 @@ Multi-hazard property risk reports for any California address. Combines public d
 
 ## Architecture
 
-Runs on Cloudflare's free tier: Worker (TypeScript) + R2 (spatial tiles) + D1 (address autocomplete).
+Runs on Cloudflare: Worker (TypeScript) + R2 (spatial tiles) + D1 (address autocomplete).
 
 ```
 frontend/          Vanilla JS single-page app
@@ -94,15 +94,15 @@ bash scripts/deploy.sh --deploy      # Deploy worker
 
 Each hazard model is documented with methodology, thresholds, limitations, and sources:
 
-- [Earthquake](/docs/earthquake-model)
-- [Wildfire](/docs/wildfire-model)
-- [Flood](/docs/flood-model)
-- [Landslide](/docs/landslide-model)
-- [Tsunami](/docs/tsunami-model)
-- [Coastal Erosion](/docs/erosion-model)
-- [Dam Failure](/docs/dam-inundation-model)
-- [Traffic Pollution](/docs/traffic-pollution-model)
-- [Aviation Lead](/docs/aviation-lead-model)
+- [Earthquake](/docs/earthquake-model.md)
+- [Wildfire](/docs/wildfire-model.md)
+- [Flood](/docs/flood-model.md)
+- [Landslide](/docs/landslide-model.md)
+- [Tsunami](/docs/tsunami-model.md)
+- [Coastal Erosion](/docs/erosion-model.md)
+- [Dam Failure](/docs/dam-inundation-model.md)
+- [Traffic Pollution](/docs/traffic-pollution-model.md)
+- [Aviation Lead](/docs/aviation-lead-model.md)
 
 ## Disclaimer
 
