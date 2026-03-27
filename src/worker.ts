@@ -406,6 +406,9 @@ export default {
           '.json': 'application/json',
           '.png': 'image/png',
           '.svg': 'image/svg+xml',
+          '.xml': 'application/xml',
+          '.txt': 'text/plain',
+          '.ico': 'image/x-icon',
         };
         const ext = assetPath.substring(assetPath.lastIndexOf('.'));
         return new Response(asset.body, {

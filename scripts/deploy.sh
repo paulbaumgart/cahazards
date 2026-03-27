@@ -54,6 +54,8 @@ seed_tiles() {
     rclone copyto frontend/index.html "$RCLONE_REMOTE/frontend/index.html"
     rclone copyto frontend/app.js "$RCLONE_REMOTE/frontend/app.js"
     rclone copyto frontend/report.js "$RCLONE_REMOTE/frontend/report.js"
+    rclone copyto frontend/favicon.svg "$RCLONE_REMOTE/frontend/favicon.svg"
+    rclone copyto frontend/sitemap.xml "$RCLONE_REMOTE/frontend/sitemap.xml"
     echo "  Frontend done."
 
     echo "Syncing data lookups..."
